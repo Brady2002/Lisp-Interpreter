@@ -140,7 +140,7 @@ def arith(line):
         return opFunc(int(line[1]), int(line[2]))
 
 def main():
-  print("Enter your program:")
+  print("Enter your LISP command to be executed (type (quit) to exit):")
   takingInput = True
   while(takingInput):
     line = input()
