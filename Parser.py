@@ -25,7 +25,7 @@ def parse(line):
       try: return float(currentToken)
       except ValueError:
         return currentToken
-          
+
 def eval(line):
     if isinstance(line, list):
       if line[0] == "define":
