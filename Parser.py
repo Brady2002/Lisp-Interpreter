@@ -40,6 +40,8 @@ def eval(line):
         return car(line)
       elif line[0] == "cdr":
         return cdr(line)
+      elif line[0] == "cons":
+        return line[1], line[2]
       elif line[0] == "'":
         return line
       elif line[0] == "set!":
