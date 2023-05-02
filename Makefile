@@ -5,8 +5,7 @@ TARGET = parse
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-    $(PYTHON) $(SRC) $(ARGS) > $@
+	$(PYTHON) $(SRC) $(ARGS) > $@
 
 clean:
-    rm -f $(TARGET)
-
+	rm -f $(TARGET)
